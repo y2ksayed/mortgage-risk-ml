@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Spark
+data/
+checkpoints/
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Models
+models/
+!models/.gitkeep
+
+# AWS / Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.aws/
+
+# IDE
+.idea/
+.vscode/
+*.swp
